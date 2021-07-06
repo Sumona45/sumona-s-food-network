@@ -6,15 +6,20 @@ body{
 }
 .flexible-container{
     display: flex;
-    margin-top: 40px;
+    margin-top: 0;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
-    padding-top: 5%;
+    padding-bottom: 5%;
 }
 h1{
     font-size: 50px;
+}
+h2{font-size:45px;
+}
+p{font-size: 18px;
+
 }
 .link-button{
     background-color: orange;
@@ -31,12 +36,12 @@ h1{
 .banner{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
-    margin: bottom 40px;
+    margin: 0;
+    padding: 0;
     }
-.second-section{
-    margin-top: 40px;
-    margin-bottom: 0px;
-}
+    #image-standing{position: relative;;
+
+    }
 .one-third-width{
     width:35%;
     padding-left: 5%;
@@ -48,6 +53,9 @@ h1{
     #bottom-banner{
         background-image: url(images/black.png);
         background-repeat: no-repeat;
+    }
+    #gray-color{
+        color: gray;
     }
     footer{
         text-align: center;

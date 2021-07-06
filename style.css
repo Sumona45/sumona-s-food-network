@@ -33,3 +33,23 @@ h1{
     background-repeat: no-repeat;
     margin: bottom 40px;
     }
+.second-section{
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.one-third-width{
+    width:35%;
+    padding-left: 5%;
+    padding-right: 5%;
+    }
+    #middle-portion{
+        text-align: center;
+    }
+    #bottom-banner{
+        background-image: url(images/black.png);
+        background-repeat: no-repeat;
+    }
+    footer{
+        text-align: center;
+        color: white;
+    }

@@ -49,7 +49,7 @@ p{font-size: 18px;
     }
 .one-third-width{   
     border-image: 30px solid white;
-    box-shadow: 15px 15px 15px 15px rgba(128, 128, 128, 0.692);
+    box-shadow: 11px 11px 11px 11px rgba(128, 128, 128, 0.692);
     width:35%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -70,15 +70,21 @@ p{font-size: 18px;
     }
     .box{        
         box-shadow: 30px 30px 30px 30px rgba(128, 128, 128, 0.692);
-        width: 80%;
-        height: 1%;
-        padding-top: 2%;
+        width: 1200px;
+        height: 200px;
+        padding-top: 0%;
         padding-bottom: 2%;
         padding-left: 2%;
         padding-right: 2%;
         border-radius: 2%;
-margin: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 0%;
+        margin-bottom: 0%;
     }
+.font-position{
+    width: 33%;
+}
     footer{
         text-align: center;
         color: white;

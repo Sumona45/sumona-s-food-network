@@ -6,8 +6,9 @@ body{
 }
 .flexible-container{
     display: flex;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 0%;
 }
 .half-width{
     width: 50%;
@@ -47,7 +48,7 @@ p{font-size: 18px;
     background-position: left;
     }
 .one-third-width{   
-    border-image: white;
+    border-image: 30px solid white;
     box-shadow: 20px 20px 20px 20px rgba(128, 128, 128, 0.692);
     width:35%;
     padding-top: 2%;
@@ -55,19 +56,18 @@ p{font-size: 18px;
     padding-left: 2%;
     padding-right: 2%;
     border-radius: 8%;
-    margin: right 5%;
+    margin:2%;
     }
     #middle-portion{
         text-align: center;
     }
-    #bottom-banner{
-        background-image: url(images/black.png);
-        background-repeat: no-repeat;
-    }
     .gray-color{
         color: gray;
     }
-    
+    #bottom-banner{
+        background-image: url(images/black.png);
+        background-repeat: no-repeat;}
+
     footer{
         text-align: center;
         color: white;
